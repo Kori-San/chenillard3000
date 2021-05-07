@@ -43,14 +43,14 @@ int main(void)
  void Init_Chenillard (void)
  {
   //(Here the PINs for the LEDs P1.2,P4.3,P4.0,P3.7 and P3.0,P3.1,P2.6,P2.3)
-  P1DIR |= (1<<2); // P1.2 Out LED:1
-  P3DIR |= (1<<0); // P3.0 Out LED:2
+  P1DIR |= (1<<2); // P3.7 Out LED:1
+  P3DIR |= (1<<0); // P4.0 Out LED:2
   P4DIR |= (1<<3); // P4.3 Out LED:3
-  P3DIR |= (1<<1); // P3.1 Out LED:4
-  P4DIR |= (1<<0); // P4.0 Out LED:5
-  P2DIR |= (1<<6); // P2.6 Out LED:6
-  P3DIR |= (1<<7); // P3.7 Out LED:7
-  P2DIR |= (1<<3); // P3.3 Out LED:8
+  P3DIR |= (1<<1); // P1.2 Out LED:4
+  P4DIR |= (1<<0); // P3.0 Out LED:5
+  P2DIR |= (1<<6); // P3.1 Out LED:6
+  P3DIR |= (1<<7); // P2.6 Out LED:7
+  P2DIR |= (1<<3); // P2.3 Out LED:8
  }
 
  unsigned int GetState_Button(void)
