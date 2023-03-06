@@ -6,7 +6,7 @@ Chenillard3000 help you re-create the famous LEDs actions of KITT in K2000.
 
 ## Configuration
 > You can have a closer look to the configuration with the pictures in the config folder
-## LEDs are on :
+### LEDs are on :
 - P1.2
 - P4.3
 - P4.0
@@ -15,7 +15,7 @@ Chenillard3000 help you re-create the famous LEDs actions of KITT in K2000.
 - P3.1
 - P2.6
 - P2.3
-## The button is on :
+### The button is on :
 - P2.0
 - P2.5
 
